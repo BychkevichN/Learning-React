@@ -12,7 +12,7 @@ class Stack{
    const firstElement = this._source[0];
 
    this._source = this._source.filter((item) => {
-       return item !== firstElement
+       return item !== firstElement;
    });
 
    return firstElement;
